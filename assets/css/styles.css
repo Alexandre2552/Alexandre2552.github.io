@@ -179,9 +179,10 @@ img {
   font-size: 12px;
 }
 
+/* u alterei aqui era 130px eu coloquei 150px */
 .scale-cv .experience_line{
   width: 1px;
-  height: 130px;
+  height: 150px; 
   transform: translate(5px, 0);
 }
 
@@ -382,7 +383,7 @@ img {
 .home_address{
   gap: 1rem;
 }
-
+/* Altera a posição do ícone de endereço e contato */
 .home_information{
   display: flex;
   align-items: center;
@@ -457,11 +458,18 @@ img {
   margin-top: .25rem;
 }
 
-.education_line,
-.experience_line{
+.education_line {
   display: block;
   width: 2px;
   height: 110%;
+  background-color: var(--text-color-light);
+  transform: translate(7px, 0);
+}
+
+.experience_line{
+  display: block;
+  width: 2px;
+  height: 105%;
   background-color: var(--text-color-light);
   transform: translate(7px, 0);
 }
@@ -488,26 +496,14 @@ img {
 /* SKILLS AND LANGUAGES */
 .skills_content,
 .languages_content{
-  display: grid;
   grid-template-columns: repeat(2, 1fr);
-  gap: 0.5rem 1.5rem; /* row-gap column-gap */
-  align-items: start;
-}
-/* (no .skills_content.custom rules needed) */
-
-/* Responsive: stack columns on small screens */
-@media screen and (max-width: 600px) {
-  .skills_content,
-  .languages_content{
-    grid-template-columns: 1fr;
-    gap: 0.5rem 0;
-  }
 }
 
 .languages_content{
   gap: 0;
 }
 
+/* Alinhamento das habilidades e linguas com o ponto */
 .skills_name,
 .languages_name{
   display: flex;
@@ -515,6 +511,7 @@ img {
   margin-bottom: var(--mb-3);
 }
 
+/* tamanho da bolinha das habilidades e linguas */
 .skills_circle,
 .languages_circle{
   display: inline-block;

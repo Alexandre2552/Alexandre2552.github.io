@@ -3,64 +3,45 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <!-- BOX ICONS -->
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css"
     />
-
-    <!-- CSS -->
     <link rel="stylesheet" href="assets/css/styles.css" />
-
-    <!-- Favicon -->
     <link rel="icon" href="assets/img/foto_de_perfil.jpg" type="image/jpg" />
-
     <title>Alexandre Luiz Almeida</title>
   </head>
   <body>
-    <!-- HEADER -->
     <header class="l-header" id="header">
       <nav class="nav bd-container">
         <a href="#" class="nav_logo">Alexandre Luiz Almeida</a>
         <div class="nav_menu" id="nav-menu">
           <ul class="nav_list">
             <li class="nav_item">
-              <a href="#home" class="nav_link active-link">
-                <i class="bx bx-home nav_icon"></i>Home
-              </a>
+              <a href="#home" class="nav_link active-link"
+                ><i class="bx bx-home nav_icon"></i>Home</a
+              >
             </li>
             <li class="nav_item">
-              <a href="#profile" class="nav_link">
-                <i class="bx bx-user nav_icon"></i>Perfil
-              </a>
+              <a href="#profile" class="nav_link"
+                ><i class="bx bx-user nav_icon"></i>Perfil</a
+              >
             </li>
             <li class="nav_item">
-              <a href="#education" class="nav_link">
-                <i class="bx bx-book nav_icon"></i>Formação
-              </a>
+              <a href="#education" class="nav_link"
+                ><i class="bx bx-book nav_icon"></i>Formação</a
+              >
             </li>
             <li class="nav_item">
-              <a href="#skills" class="nav_link">
-                <i class="bx bx-receipt nav_icon"></i>Habilidades
-              </a>
+              <a href="#skills" class="nav_link"
+                ><i class="bx bx-receipt nav_icon"></i>Habilidades</a
+              >
             </li>
             <li class="nav_item">
-              <a href="#experience" class="nav_link">
-                <i class="bx bx-briefcase-alt nav_icon"></i>Experiencia
-              </a>
+              <a href="#experience" class="nav_link"
+                ><i class="bx bx-briefcase-alt nav_icon"></i>Experiencia</a
+              >
             </li>
-
-            <!-- <li class="nav_item">
-              <a href="#certificate" class="nav_link">
-                <i class="bx bx-award nav_icon"></i>Certificado
-              </a>
-            </li>
-            <li class="nav_item">
-              <a href="#references" class="nav_link">
-                <i class="bx bx-link-external nav_icon"></i>Referencias
-              </a>
-            </li> -->
           </ul>
         </div>
         <div class="nav_toggle" id="nav-toggle">
@@ -70,52 +51,37 @@
     </header>
 
     <main class="l-main bd-container">
-      <!-- All elements within this div, is generated in PDF -->
       <div class="resume" id="area-cv">
         <div class="resume__left">
-          <!-- HOME -->
           <section class="home" id="home">
             <div class="home_containter section bd-grid">
               <div class="home_data bd-grid">
                 <img
                   src="assets/img/foto_de_perfil.jpg"
                   alt=""
-                  class="home_img center"
+                  class="home_img"
                   style="object-fit: cover"
                 />
-                <h1 class="home_title">Alexandre <b>Almeida</b></h1>
-                <h3 class="home_profession"></h3>
-                <!-- Button to generate and download the pdf. Available for desktop. -->
-                <div>
-                  <a
-                    download=""
-                    href="assets/pdf/Alexandre_Almeida.pdf"
-                    class="home_button-movil"
-                    >Download</a
+                <h1 class="home_title">ALEXANDRE ALMEIDA</h1>
+                <div class="home_address bd-grid">
+                  <span class="home_information"
+                    ><i class="bx bx-map"></i> Curitiba, Paraná</span
+                  >
+                  <span class="home_information"
+                    ><i class="bx bx-envelope"></i>
+                    alexandre.luizalmeida@hotmail.com</span
+                  >
+                  <span class="home_information"
+                    ><i class="bx bx-phone"></i> +55 (41) 99554-7445</span
                   >
                 </div>
               </div>
-              <div class="home_address bd-grid">
-                <span class="home_information">
-                  <i class="bx bx-map"> &nbsp; </i> Curitiba, Paraná
-                </span>
-                <span class="home_information">
-                  <i class="bx bx-envelope"> &nbsp; </i>
-                  alexandre.luizalmeida@hotmail.com
-                </span>
-                <span class="home_information">
-                  <i class="bx bx-phone"> &nbsp; </i> +55 (41) 99554-7445
-                </span>
-              </div>
             </div>
-
-            <!-- Theme change button -->
             <i
               class="bx bx-moon change-theme"
               title="Theme"
               id="theme-button"
             ></i>
-            <!-- Button to generate and download the pdf. Available for desktop -->
             <i
               class="bx bx-download generate-pdf"
               title="Generate PDF"
@@ -123,63 +89,46 @@
             ></i>
           </section>
 
-          <!-- SOCIAL -->
           <section class="social section">
-            <h2 class="section-title">Minhas redes</h2>
+            <h2 class="section-title">MINHAS REDES</h2>
             <div class="social_container bd-grid">
               <a
                 href="https://www.linkedin.com/in/alexandreluizalmeida/"
                 target="_blank"
                 class="social_link"
+                ><i class="bx bxl-linkedin-square"></i> LinkedIn</a
               >
-                <i class="bx bxl-linkedin-square social_icon"></i>
-                LinkedIn
-              </a>
               <a
                 href="https://github.com/Alexandre2552"
                 target="_blank"
                 class="social_link"
+                ><i class="bx bxl-github"></i> Meu Git</a
               >
-                <i class="bx bxl-github social_icon"></i> Meu Git
-              </a>
-              <!--
-                <a
-                href="https://twitter.com/imuhammadessa"
-                target="_blank"
-                class="social_link"
-              >
-                <i class="bx bxl-twitter social_icon"></i> @imuhammadessa
-              </a>
-              -->
             </div>
           </section>
-          <!-- PROFILE -->
+
           <section class="profile section" id="profile">
             <h2 class="section-title">Perfil</h2>
             <p class="profile_description">
-              Sou Alexandre Luiz Almeida, Designer Industrial com mais de 7 anos
-              de experiência em transição para a área de TI. Formado em
-              Tecnologia em Fabricação Mecânica e técnico em Mecatrônica,
-              atualmente curso Análise e Desenvolvimento de Sistemas. Liderei
-              por 1,5 ano o programa "Revelando Serviços Técnicos", coordenando
-              apresentações, logística e integração entre equipes técnicas.
-              Tenho perfil prático, colaborativo e orientado a resultados, com
-              boa comunicação e foco em resolver problemas reais. Busco minha
-              primeira oportunidade em TI e estou sempre estudando e “colocando
-              a mão na massa”.
+              Profissional com mais de 7 anos de experiência em ambientes
+              técnicos e industriais, em transição estruturada para a área de
+              TI. Estudante de Análise e Desenvolvimento de Sistemas, com base
+              em programação, análise de dados e resolução de problemas.
+              Experiência em liderança técnica, melhoria de processos e trabalho
+              colaborativo. Busco oportunidade em TI para aplicar conhecimentos
+              técnicos em contextos reais.
             </p>
           </section>
 
-          <!-- EDUCATION -->
           <section class="education section" id="education">
             <h2 class="section-title">Formação</h2>
             <div class="education_container bd-grid">
               <div class="education_content">
                 <div class="education_time">
-                  <span class="education_rounder"></span>
-                  <!--<span class="education_line"></span>-->
+                  <span class="education_rounder"></span
+                  ><span class="education_line"></span>
                 </div>
-                <div class="education_data bd-grid">
+                <div class="education_data">
                   <h3 class="education_title">
                     Analise e Desenvolvimento de Sistemas
                   </h3>
@@ -189,15 +138,12 @@
                   <span class="education_year">2025 - 2027</span>
                 </div>
               </div>
-            </div>
-
-            <div class="education_container bd-grid">
               <div class="education_content">
                 <div class="education_time">
-                  <span class="education_rounder"></span>
-                  <!--<span class="education_line"></span>-->
+                  <span class="education_rounder"></span
+                  ><span class="education_line"></span>
                 </div>
-                <div class="education_data bd-grid">
+                <div class="education_data">
                   <h3 class="education_title">
                     Tecnologia em Fabricação Mecânica
                   </h3>
@@ -207,15 +153,11 @@
                   <span class="education_year">2022 - 2024</span>
                 </div>
               </div>
-            </div>
-
-            <div class="education_container bd-grid">
               <div class="education_content">
                 <div class="education_time">
                   <span class="education_rounder"></span>
-                  <!--<span class="education_line"></span>-->
                 </div>
-                <div class="education_data bd-grid">
+                <div class="education_data">
                   <h3 class="education_title">Técnico em Mecatrônica</h3>
                   <span class="education_studies">Ensitec, Curitiba</span>
                   <span class="education_year">2010 - 2012</span>
@@ -223,180 +165,122 @@
               </div>
             </div>
           </section>
-          <!-- SKILLS  -->
+
+          <section class="languages section">
+            <h2 class="section-title">Idiomas</h2>
+            <div class="languages_container bd-grid">
+              <div class="languages_content">
+                <span class="languages_circle"></span> Português
+              </div>
+              <div class="languages_content">
+                <span class="languages_circle"></span> Inglês
+              </div>
+            </div>
+          </section>
+        </div>
+
+        <div class="resume__right">
+          <section class="experience section" id="experience">
+            <h2 class="section-title">EXPERIÊNCIA</h2>
+            <div class="experience_container bd-grid">
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span
+                  ><span class="experience_line"></span>
+                </div>
+                <div class="experience_data">
+                  <h3 class="experience_title">Designer Industrial</h3>
+                  <span class="experience_company"
+                    >Jun 2010 Set 2025 | Oregon Tool</span
+                  >
+                  <p class="experience_description">
+                    Fui responsável pelo diagnóstico e solução de problemas em
+                    processos e sistemas, utilizando análise de causa raiz para
+                    reduzir falhas e otimizar resultados. Elaborei desenhos e
+                    diagramas técnicos, conduzi treinamentos, implementei
+                    melhorias contínuas (Kaizen), acompanhei indicadores de
+                    desempenho e prestei suporte técnico a equipes
+                    multidisciplinares, entregando soluções práticas e
+                    escaláveis.
+                  </p>
+                </div>
+              </div>
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span
+                  ><span class="experience_line"></span>
+                </div>
+                <div class="experience_data">
+                  <h3 class="experience_title">Operador de Produção</h3>
+                  <span class="experience_company"
+                    >Jun 2010 - Abr 2018 | Oregon Tool</span
+                  >
+                  <p class="experience_description">
+                    Responsável pela operação segura e eficiente de
+                    equipamentos, realizando inspeções, identificando e
+                    comunicando anomalias e executando ajustes rápidos para
+                    minimizar impactos na produção. Apliquei ferramentas Lean e
+                    Kaizen na análise de causas, participei de iniciativas TPM e
+                    mantive o ambiente organizado e padronizado conforme os
+                    princípios do 5S, garantindo produtividade e segurança.
+                  </p>
+                </div>
+              </div>
+              <div class="experience_content">
+                <div class="experience_time">
+                  <span class="experience_rounder"></span>
+                </div>
+                <div class="experience_data">
+                  <h3 class="experience_title">Operador de Produção</h3>
+                  <span class="experience_company"
+                    >Abr 2007 - Mai 2010 | Trox do Brasil</span
+                  >
+                  <p class="experience_description">
+                    Atuei na operação segura e eficiente de equipamentos,
+                    realizando inspeções, identificando e comunicando anomalias,
+                    executando ajustes imediatos e aplicando ferramentas Lean
+                    para reduzir impactos. Proponho melhorias Kaizen, participo
+                    de iniciativas TPM e mantenho o ambiente organizado e
+                    padronizado segundo o 5S, assegurando produtividade e
+                    segurança.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </section>
+
           <section class="skills section" id="skills">
             <h2 class="section-title">Habilidades</h2>
-            <div class="skills_content custom">
+            <div
+              class="skills_content bd-grid"
+              style="grid-template-columns: repeat(2, 1fr)"
+            >
               <ul class="skills_data">
-                <li class="skills_name">
-                  <span class="skills_circle"></span>PYTHON
-                </li>
-                <li class="skills_name">
-                  <span class="skills_circle"></span>JAVASCRIPT
-                </li>
                 <li class="skills_name">
                   <span class="skills_circle"></span>HTML
                 </li>
                 <li class="skills_name">
                   <span class="skills_circle"></span>CSS
                 </li>
+                <li class="skills_name">
+                  <span class="skills_circle"></span>REACT
+                </li>
+                <li class="skills_name">
+                  <span class="skills_circle"></span>JAVASCRIPT
+                </li>
               </ul>
               <ul class="skills_data">
+                <li class="skills_name">
+                  <span class="skills_circle"></span>TYPESCRIPT
+                </li>
+                <li class="skills_name">
+                  <span class="skills_circle"></span>PYTHON
+                </li>
                 <li class="skills_name">
                   <span class="skills_circle"></span>POWER BI
                 </li>
                 <li class="skills_name">
-                  <span class="skills_circle"></span>WORD
-                </li>
-                <li class="skills_name">
                   <span class="skills_circle"></span>EXCEL
-                </li>
-                <li class="skills_name">
-                  <span class="skills_circle"></span>POWER POINT
-                </li>
-              </ul>
-            </div>
-          </section>
-        </div>
-        <div class="resume__right">
-          <!-- EXPERIENCE -->
-          <section class="experience section" id="experience">
-            <h2 class="section-title">Experiência</h2>
-            <div class="experience_container bd-grid">
-              <div class="experience_content">
-                <div class="experience_time">
-                  <span class="experience_rounder"></span>
-                  <span class="experience_line"></span>
-                </div>
-                <div class="experience_data bd-grid">
-                  <h3 class="experience_title">Designer Industrial</h3>
-                  <span class="experience_company"
-                    >Jun 2010 Set 2025
-                    <a href="https://www.oregontool.com/" target="_blank"
-                      >Oregon Tool</a
-                    >
-                  </span>
-                  <p class="experience_description">
-                    Atuo com diagnóstico e solução de problemas em processos e
-                    sistemas, aplicando análise de causa raiz para reduzir
-                    falhas e otimizar entregas. Elaboro desenhos e diagramas
-                    técnicos para especificação de projetos e conduzo
-                    treinamentos técnicos para equipamentos e interpretação de
-                    documentação. Implemento melhorias contínuas com práticas
-                    Kaizen, monitoro indicadores de desempenho e forneço suporte
-                    técnico a equipes de engenharia, manutenção e ferramentaria,
-                    colaborando em times multidisciplinares para entregar
-                    soluções práticas e escaláveis.
-                  </p>
-                </div>
-              </div>
-
-              <div class="experience_content">
-                <div class="experience_time">
-                  <span class="experience_rounder"></span>
-                  <!--<span class="experience_line"></span>-->
-                </div>
-                <div class="experience_data bd-grid">
-                  <h3 class="experience_title">Operador de Produção</h3>
-                  <span class="experience_company"
-                    >Jun 2010 - Abril 2018 |
-                    <a
-                      href="https://www.econeteditora.com.br/novo/"
-                      target="_blank"
-                      >Oregon Tool</a
-                    ></span
-                  >
-                  <p class="experience_description">
-                    Atuo na operação segura e eficiente de equipamentos,
-                    realizando inspeções regulares para identificar anomalias e
-                    registrando e comunicando prontamente os problemas às áreas
-                    responsáveis. Executo pequenos reparos e ajustes imediatos
-                    para restabelecer a produção e minimizo impactos através da
-                    aplicação de ferramentas Lean na análise e resolução das
-                    causas. Proponho e implemento ideias Kaizen, participo
-                    ativamente de encontros TPM e eventos Kaizen para troca de
-                    práticas de manutenção e melhoria, e mantenho o ambiente
-                    organizado e padronizado seguindo os princípios do 5S para
-                    garantir produtividade e segurança.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </section>
-          <!-- CERTIFICATES -->
-          <!--<section class="certificate section" id="certificate">
-            <h2 class="section-title">Certificates</h2>
-            <div class="certificate_container bd-grid">
-              <div class="certificate_content">
-                <h3 class="certificate_title">
-                  NodeJs Backend-Development - 2021
-                </h3>
-                <p class="certificate_description">
-                  I had done detailed course with certification under
-                  Khyber-Pakhtunkhwa initiative in collaboration with
-                  Cybervision, KPYEP & UNDP
-                </p>
-              </div>
-              <div class="certificate_content">
-                <h3 class="certificate_title">
-                  Microsoft Student Partner - 2020
-                </h3>
-                <p class="certificate_description">
-                  I worked as an active ambassador for Microsoft as Microsoft
-                  Student Partner - Pakistan for one of their great event as
-                  Microfest++
-                </p>
-              </div>
-              <div class="certificate_content">
-                <h3 class="certificate_title">WordPress Development - 2019</h3>
-                <p class="certificate_description">
-                  I had done detailed course with certification under Virtual
-                  University initiative in collaboration with Ministry of
-                  Information Technology Punjab, Ignite & DigiSkills.pk
-                </p>
-              </div>
-              <div class="certificate_content">
-                <h3 class="certificate_title">Web Development - 2017</h3>
-                <p class="certificate_description">
-                  I had done detailed course with certification at The Mentors,
-                  Pakistan a Software House. I learnt how web applications
-                  works, developing software from scratch and testing it.
-                </p>
-              </div>
-            </div>
-          </section>  -->
-          <!-- REFERENCES -->
-          <!--<section class="references section" id="references">
-            <h2 class="section-title">References</h2>
-            <div class="references_container bd-grid">
-              <div class="references_content bd-grid">
-                <span class="references_subtitle">CEO IT-Artificer</span>
-                <h3 class="references_title">Mr. Haider Ali</h3>
-                <ul class="references_contact">
-                  <li>Phone: +92-333-9296314</li>
-                  <li>Email: thehaider@yahoo.com</li>
-                </ul>
-              </div>
-              <div class="references_content bd-grid">
-                <span class="references_subtitle">Professor</span>
-                <h3 class="references_title">Dr. Irshad Ahmad</h3>
-                <ul class="references_contact">
-                  <li>Phone: 091-9222258</li>
-                  <li>Email: Irshad.ahmad@icp.edu.pk</li>
-                </ul>
-              </div>
-            </div>
-          </section> -->
-          <!-- LANGUAGES -->
-          <section class="languages section">
-            <h2 class="section-title">Idiomas</h2>
-            <div class="languages_container">
-              <ul class="languages_content bd-grid">
-                <li class="languages_name">
-                  <span class="languages_circle"></span> Português
-                </li>
-                <li class="languages_name">
-                  <span class="languages_circle"></span> Inglês
                 </li>
               </ul>
             </div>
@@ -428,13 +312,9 @@
         </div>
       </div>
     </main>
-
-    <!-- SCROLL TOP -->
-    <a href="#" class="scrolltop" id="scrolltop">
-      <i class="bx bx-up-arrow-alt scrolltop_icon"></i>
-    </a>
-
-    <!-- HTML2PDF -->
+    <a href="#" class="scrolltop" id="scrolltop"
+      ><i class="bx bx-up-arrow-alt scrolltop_icon"></i
+    ></a>
     <script src="assets/js/html2pdf.bundle.min.js"></script>
 
     <!-- MAIN JS -->
